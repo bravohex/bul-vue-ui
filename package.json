@@ -1,11 +1,9 @@
 {
   "name": "bul-vue-ui",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "private": true,
   "description": "BravoHex UI components for Vue.js based on Bulma",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
@@ -30,6 +28,11 @@
     "vuex": "^3.0.1"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.8",
+    "@fortawesome/free-brands-svg-icons": "^5.5.0",
+    "@fortawesome/free-regular-svg-icons": "^5.5.0",
+    "@fortawesome/free-solid-svg-icons": "^5.5.0",
+    "@fortawesome/vue-fontawesome": "^0.1.2",
     "@vue/cli-plugin-babel": "^3.2.0",
     "@vue/cli-plugin-pwa": "^3.2.0",
     "@vue/cli-plugin-typescript": "^3.2.0",
